@@ -1,0 +1,109 @@
+// Seed data copied from your mock-api/db.json. Held in memory (resets on restart).
+const courses = [
+  {
+    "id": "1",
+    "courseName": "Web Development",
+    "courseCode": "WD101",
+    "instructor": "Dr. Priya",
+    "duration": "8 Weeks",
+    "level": "Intermediate",
+    "category": "Web Development",
+    "image": "/images/web.jpg",
+    "status": "Active",
+    "overview": "Learn HTML, CSS, JavaScript and build responsive websites.",
+    "learningOutcomes": [
+      "Create semantic HTML",
+      "Design responsive websites",
+      "Use JavaScript",
+      "Work with APIs"
+    ],
+    "modules": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "DOM",
+      "REST APIs"
+    ],
+    "marks": 20
+  },
+  {
+    "id": "2",
+    "courseName": "Python Programming",
+    "courseCode": "CS101",
+    "instructor": "Dr. Anu",
+    "duration": "10 Weeks",
+    "level": "Beginner",
+    "category": "Programming",
+    "image": "/images/python.jpg",
+    "status": "Active",
+    "overview": "Master Python programming from basics to advanced concepts.",
+    "learningOutcomes": [
+      "Understand Python basics",
+      "Work with functions",
+      "Use object-oriented programming",
+      "Build Python applications"
+    ],
+    "modules": [
+      "Python Basics",
+      "Control Statements",
+      "Functions",
+      "OOP",
+      "Mini Project"
+    ],
+    "marks": 25
+  },
+  {
+    "id": "3",
+    "courseName": "Java Programming",
+    "courseCode": "JV101",
+    "instructor": "Dr. Anu",
+    "duration": "12 Weeks",
+    "level": "Intermediate",
+    "category": "Programming",
+    "image": "/images/java.jpg",
+    "status": "Active",
+    "overview": "Learn Java fundamentals, OOP concepts and projects.",
+    "learningOutcomes": [
+      "Understand Java basics",
+      "Use OOP concepts",
+      "Work with collections",
+      "Build Java applications"
+    ],
+    "modules": [
+      "Java Basics",
+      "OOP",
+      "Collections",
+      "Exception Handling",
+      "Mini Project"
+    ],
+    "marks": 25
+  },
+  {
+    "id": "4",
+    "courseName": "Artificial Intelligence",
+    "courseCode": "AI101",
+    "instructor": "Dr. Priya",
+    "duration": "14 Weeks",
+    "level": "Advanced",
+    "category": "Artificial Intelligence",
+    "image": "/images/ai.jpg",
+    "status": "Active",
+    "overview": "Explore Machine Learning, NLP and AI applications.",
+    "learningOutcomes": [
+      "Understand AI concepts",
+      "Explore machine learning",
+      "Understand neural networks",
+      "Build AI applications"
+    ],
+    "modules": [
+      "Introduction to AI",
+      "Machine Learning",
+      "Neural Networks",
+      "Generative AI",
+      "AI Project"
+    ],
+    "marks": 30
+  }
+];
+
+module.exports = courses;
